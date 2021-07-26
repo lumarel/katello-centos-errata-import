@@ -1,7 +1,9 @@
 # Warning
 Since the move to pulp 3, this script is no more working properly. Currently, I have no time to continue working on that project and try to find a solution.
 
-By looking at the following link, https://docs.pulpproject.org/pulp_rpm/workflows/upload.html, under Advisory upload, it seems there is a way to upload advisories in json format. If someone can write a patch to add support for that, I'll be more than happy to integrate it
+By looking at the following link, https://docs.pulpproject.org/pulp_rpm/workflows/upload.html, under Advisory upload, it seems there is a way to upload advisories in json format. If someone can write a patch to add support for that, I'll be more than happy to integrate it.
+
+The best way might be to switch to one of the new distributions, which bring the errata as part of the repository, like Rocky Linux.
 
 # katello-centos-errata-import
 This script imports CentOS Errata into Katello and use preformatted information from http://cefs.steve-meier.de/
